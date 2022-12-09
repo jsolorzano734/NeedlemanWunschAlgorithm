@@ -9,7 +9,11 @@ from Bio import SeqIO
 import numpy as np
 
 #usage
-#python3 needlemanWunsch.py pfizer_mrna.fna sars_spike_protein.fna output.txt
+#seq1 is the sequence 1
+#seq2 is sequence 2
+#output.txt is where you save the data
+
+#python3 needlemanWunsch.py seq1.fna seq2.fna output.txt
 
 
 #load files from terminal
